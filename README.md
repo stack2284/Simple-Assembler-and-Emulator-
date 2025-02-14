@@ -23,6 +23,7 @@ The DLCO Lab Mini Project is an assembler and emulator designed to process assem
   - Corrects formatting issues in assembly code for better processing.
 
 ## File Structure
+```bash
 DLCO_LAB_MINI_PROJECT/
 ├── claims.txt
 ├── code.txt
@@ -51,6 +52,7 @@ DLCO_LAB_MINI_PROJECT/
     ├── sum_of_array.txt
     ├── sum_of_first_N.txt
     └── errrorpassone.txt
+```
 
 ## The Simple Instruction Set
 
@@ -101,7 +103,7 @@ The assembler generates **three output files**:
 To compile the **Assembler**:
 ```sh
 g++ Assembler.cpp -o assembler
-
+```
 
 
 ## How to Use
