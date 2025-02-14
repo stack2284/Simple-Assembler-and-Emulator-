@@ -1,0 +1,6 @@
+ldc 0x000fff
+br lable :
+no :
+HALT
+no  : data 2
+data 4

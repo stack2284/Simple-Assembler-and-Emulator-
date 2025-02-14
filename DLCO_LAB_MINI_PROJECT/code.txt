@@ -1,0 +1,20 @@
+N : data 10
+sum : data 0
+adj 40
+start : ldc 0
+ldc N
+ldnl 0
+stl 0 ;n stored at sp + 0
+; stl + 1 has dynamic sum
+loop : ldl 0
+brz end
+ldl 1
+add
+stl 1
+adc -1
+stl 0
+br loop
+end : ldl 1
+ldc sum
+stnl 0
+HALT

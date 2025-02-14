@@ -1,0 +1,7 @@
+;pass 2 errors warnings
+value : data 1
+data 2
+ldc 4
+errors:br errors
+ldc -4
+add

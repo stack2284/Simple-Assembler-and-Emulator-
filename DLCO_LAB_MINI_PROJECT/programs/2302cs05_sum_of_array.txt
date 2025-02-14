@@ -1,0 +1,41 @@
+size : data 10
+array : data 0
+data 1
+data 10
+data 9
+data 0
+data 3
+data 7
+data 0
+data 9
+data 1
+
+sum : data 0
+adj 0x000060
+ldc 0
+ldc 0
+
+main : ldc size
+ldnl 0 ; A has contents of size
+stl 0 ; sp has size(10) stored
+ldc sum
+stl 1 ; sp +1 has address of size
+
+loop : ldl 0
+brz loopexit
+adc -1
+stl 0 ; size is reduced by 1
+ldl 0
+ldc array
+add
+ldnl 0
+ldc sum
+ldnl 0
+add
+ldc sum
+stnl 0
+br loop
+
+loopexit : HALT
+
+
