@@ -1,7 +1,7 @@
 # DLCO Lab Mini Project
 
 ## Overview
-The DLCO Lab Mini Project is an assembler and emulator designed to process assembly language code, generate machine code, and execute it. This project includes various components such as libraries for opcode handling, label management, error checking, and memory emulation.
+The DLCO Lab Mini Project is an assembler and emulator designed to process assembly language code, generate machine code, and execute it. This project includes various components such as libraries for opcode handling, label management, error checking, and memory emulation. This is my second year course project for CS2102 at IIT Patna. 
 
 ## Table of Contents
 - [Features](#features)
