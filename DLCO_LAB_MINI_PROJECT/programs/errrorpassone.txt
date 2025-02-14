@@ -1,0 +1,6 @@
+;pass one errors as lable table isnt made not all of them
+lable la:
+ldc
+a2sp 1
+lable :
+lable :
